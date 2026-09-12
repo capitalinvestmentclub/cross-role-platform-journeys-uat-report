@@ -1,0 +1,13 @@
+{
+  "toolchain": ["Chrome browser control", "rendered screenshot inspection", "controlled inbox reconciliation"],
+  "targetUrl": "https://planar-truck-361704.uc.r.appspot.com/",
+  "apiMode": "deployed real API-backed application",
+  "scenarioRange": "ADM-050 through ADM-056",
+  "viewports": ["360x800", "390x844", "768x1024", "1024x768", "1280x800", "1440x900"],
+  "scenarios": {"ADM-050":"FAIL","ADM-051":"FAIL","ADM-052":"FAIL","ADM-053":"FAIL","ADM-054":"FAIL","ADM-055":"FAIL","ADM-056":"FAIL"},
+  "resultCells": 42,
+  "findings": {"critical":4,"high":11,"medium":8},
+  "pending": 0,
+  "mocksUsed": false,
+  "privacy": "Credentials, participant addresses, identity documents and raw private transaction evidence are excluded from this public artifact."
+}
